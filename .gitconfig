@@ -1,0 +1,10 @@
+[user]
+	name = mrtkj
+	email = 45763653+mrtkj@users.noreply.github.com
+[usre]
+	email = 45763653+mrtkj@users.noreply.github.com
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
