@@ -2,10 +2,10 @@ add_newline = false
 
 [directory]
 truncate_to_repo = false
-
+style = "bold cyan"
 
 [git_branch]
-symbol = "🌱 "
+symbol = "→"
 
 [time]
 disabled = false
